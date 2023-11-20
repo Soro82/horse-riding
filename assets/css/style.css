@@ -15,7 +15,7 @@ h1 {
 /* Navigation Bar */
 nav ul {
     list-style-type: none;
-
+    position: relative;
 }
 
 #hero img {
