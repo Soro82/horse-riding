@@ -6,6 +6,7 @@ header {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+    justify-content: center;
 
 }
 
@@ -33,6 +34,7 @@ nav ul {
 body {
     font-family: 'Roboto', sans-serif;
 }
+
 
 #social-networks {
     display: flex;
