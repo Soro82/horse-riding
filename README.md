@@ -64,3 +64,5 @@ They will display in a single column for mobile and tablet view.
 
 The code to make the social media links was taken from the CI Love Running project.
 The images were downloaded from Pexels.
+I used resizepixel.com to reduce the size of my images.
+Convert images from jpg to webp using pixelied.com.
