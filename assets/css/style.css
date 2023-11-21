@@ -1,6 +1,13 @@
 /* Google Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap');
 
+/* Asterisk wildcard selector to override default styles added by the browser*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 /* Header */
 header {
     display: flex;
@@ -41,6 +48,10 @@ nav ul {
 
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+main {
+    flex: 1 0 auto;
 }
 
 
