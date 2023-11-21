@@ -54,3 +54,11 @@ body {
     padding: 5%;
     color: #4a4a4a;
 }
+
+/* Media Query for tablets and larger screens */
+@media screen and (min-width: 768px) {
+    nav ul {
+        left: 150px;
+    }
+    
+}
