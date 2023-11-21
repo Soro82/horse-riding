@@ -4,8 +4,12 @@
 /* Asterisk wildcard selector to override default styles added by the browser*/
 * {
     padding: 0;
-    margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Header */
@@ -14,6 +18,7 @@ header {
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
+    
 
 }
 
@@ -26,6 +31,8 @@ header a {
 h1 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
+    font-size: 250%;
+    margin: auto;
 }
 
 .active {
@@ -46,13 +53,12 @@ nav ul {
     
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-}
+
 
 main {
     flex: 1 0 auto;
 }
+
 
 
 #social-networks {
@@ -81,8 +87,19 @@ main {
         
     }
 
+    h1 {
+        text-align: center;
+        margin-left: 40px;
+        font-size: 300%;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
     header a {
         padding-left: 1rem;
+        font-size: 140%;
     }
     
 }
@@ -90,5 +107,15 @@ main {
 @media screen and (min-width: 992px) {
     header a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+        h1 {
+            
+            
+            font-size: 380%;
+        }
+
+    header a {
+        font-size: 180%;
     }
 }
