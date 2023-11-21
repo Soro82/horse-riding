@@ -10,6 +10,7 @@ header {
 
 }
 
+/* Remove underline from links in navbar */
 header a {
     text-decoration: none;
 }
@@ -27,6 +28,9 @@ h1 {
 nav ul {
     list-style-type: none;
     position: relative;
+    display: flex;
+    letter-spacing: 4px;
+    font-size: 120%;
 }
 
 #hero img {
