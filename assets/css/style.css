@@ -59,6 +59,15 @@ main {
     flex: 1 0 auto;
 }
 
+#types {
+    margin-left: 1rem;
+}
+#types li {
+    list-style-type: disc;
+    margin-left: 1rem;
+    
+}
+
 
 
 #social-networks {
