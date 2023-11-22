@@ -68,6 +68,12 @@ main {
     
 }
 
+/* Gallery */
+#gallery img {
+    width: 100%;
+    
+}
+
 
 
 #social-networks {
