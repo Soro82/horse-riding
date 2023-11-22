@@ -73,3 +73,8 @@ The code to make the social media links was taken from the CI Love Running proje
 The images were downloaded from Pexels.
 I used resizepixel.com to reduce the size of my images.
 Convert images from jpg to webp using pixelied.com.
+The paragraph about show jumping was copied from www.horseandhound.co.uk
+The paragraph about cross country horse riding was copied from www.wikipedia.com 
+The paragraph about hacking was copied from www.horseandhound.co.uk
+The paragraph about dressage was copied from www.horsesportireland.com
+
