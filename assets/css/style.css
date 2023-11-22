@@ -71,7 +71,7 @@ main {
 /* Gallery */
 #gallery img {
     width: 100%;
-    
+
 }
 
 
@@ -116,6 +116,12 @@ main {
         padding-left: 1rem;
         font-size: 140%;
     }
+
+    /* Gallery */
+    #gallery {
+        column-count: 2;
+        column-gap: 0;
+    }
     
 }
 
@@ -133,4 +139,10 @@ main {
     header a {
         font-size: 180%;
     }
+
+        /* Gallery */
+        #gallery {
+            column-count: 3;
+            column-gap: 0;
+        }
 }
