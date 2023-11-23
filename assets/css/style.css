@@ -64,11 +64,20 @@ main {
 /* Horse Riding types on the home page */
 #types {
     margin-left: 1rem;
+    padding-bottom: 10px;
 }
 #types li {
     list-style-type: disc;
     margin-left: 1rem;
     
+}
+
+#jumping img {
+    height: 60px;
+    width: 120px;
+    position: absolute;
+    left: 170px;
+    bottom: 70px;
 }
 
 /* Gallery */
