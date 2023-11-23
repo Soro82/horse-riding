@@ -72,7 +72,7 @@ main {
 /* Gallery */
 #gallery img {
     width: 100%;
-
+    
 }
 
 /* Feedback Page */
@@ -130,6 +130,12 @@ main {
         column-count: 2;
         column-gap: 0;
     }
+
+    #gallery img {
+        width: 100%;
+    
+    }
+    
     
 }
 
@@ -138,19 +144,24 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
 
-        h1 {
-            
-            
-            font-size: 380%;
-        }
+    h1 {
+
+
+        font-size: 380%;
+    }
 
     header a {
         font-size: 180%;
     }
 
-        /* Gallery */
-        #gallery {
-            column-count: 3;
-            column-gap: 0;
-        }
+    /* Gallery */
+    #gallery {
+        column-count: 3;
+        column-gap: 0;
+    }
+
+    .gallery-test {
+        display: grid;
+        grid-template-columns: repeat(3, auto [col-start]);
+    }
 }
