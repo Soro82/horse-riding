@@ -72,12 +72,22 @@ main {
     
 }
 
+/* Small images in Types on Home Page */
 #jumping img {
     height: 60px;
     width: 120px;
     position: absolute;
     left: 170px;
     bottom: 70px;
+}
+
+#country img {
+    height: 60px;
+    width: 120px;
+    position: absolute;
+    left: 170px;
+    top: 700px;
+
 }
 
 /* Gallery */
