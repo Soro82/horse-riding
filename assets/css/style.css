@@ -77,7 +77,7 @@ main {
     height: 60px;
     width: 120px;
     position: absolute;
-    left: 170px;
+    left: 160px;
     bottom: 70px;
 }
 
@@ -85,9 +85,24 @@ main {
     height: 60px;
     width: 120px;
     position: absolute;
-    left: 170px;
+    left: 160px;
     top: 700px;
+}
 
+#hacking img {
+    height: 60px;
+    width: 120px;
+    position: absolute;
+    left: 130px;
+    top: 980px;
+}
+
+#dressage img {
+    height: 60px;
+    width: 120px;
+    position: absolute;
+    left: 130px;
+    top: 1255px;
 }
 
 /* Gallery */
