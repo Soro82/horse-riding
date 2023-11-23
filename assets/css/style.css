@@ -18,13 +18,13 @@ header {
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
-    
-
-}
+ }
+ 
 
 /* Remove underline from links in navbar */
 header a {
     text-decoration: none;
+    margin-left: 5px;
     
 }
 
@@ -46,6 +46,8 @@ nav ul {
     position: relative;
     letter-spacing: 4px;
     width: 100%;
+    display: flex;
+    
 }
 
 #hero img {
