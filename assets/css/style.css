@@ -62,48 +62,10 @@ main {
 }
 
 /* Horse Riding types on the home page */
-#types {
-    margin-left: 1rem;
-    padding-bottom: 10px;
-}
-#types li {
-    list-style-type: disc;
-    margin-left: 1rem;
-    
-}
-
-/* Small images in Types section on Home Page */
-#jumping img {
-    height: 60px;
-    width: 120px;
-    position: absolute;
-    left: 160px;
-    bottom: 70px;
-}
-
-#country img {
-    height: 60px;
-    width: 120px;
-    position: absolute;
-    left: 160px;
-    top: 700px;
-}
-
-#hacking img {
-    height: 60px;
-    width: 120px;
-    position: absolute;
-    left: 130px;
-    top: 980px;
-}
-
-#dressage img {
-    height: 60px;
-    width: 120px;
-    position: absolute;
-    left: 130px;
-    top: 1255px;
-}
+    #jumping-image img {
+        width: 100%;
+            
+    }
 
 /* Gallery */
 #gallery img {
@@ -115,9 +77,6 @@ main {
 .text-input {
     width: 20%;
 }
-
-
-
 
 
 #social-networks {
@@ -161,6 +120,105 @@ main {
         font-size: 140%;
     }
 
+        /* Grid Display for the 4 types of horse riding */
+        #types-info {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: 30% 20% 30% 20%;
+            grid-template-rows: 10% 10% 35% 10% 30%;
+    
+        }
+    
+        #types-list {
+            grid-column: 1 / 6;
+            grid-row: 1 / 2;
+            text-align: center;
+        }
+    
+        #types-list ul {
+            display: none;
+        }
+    
+    
+        /* Show Jumping section */
+        #jumping-header {
+            grid-column: 1 / 3;
+            grid-row: 2 / 3;
+            text-align: center;
+    
+        }
+    
+        #jumping-par {
+            grid-column: 1 / 2;
+            grid-row: 3 / 4;
+        }
+    
+        #jumping-image {
+            grid-column: 2 / 3;
+            grid-row: 3 / 4;
+            align-self: center;
+            
+        }
+
+
+    
+        /* Cross Country Section */
+        #country-header {
+            grid-column: 1 / 3;
+            grid-row: 4 / 5;
+            text-align: center;
+        }
+    
+        #country-par {
+            grid-column: 1 / 2;
+            grid-row: 5 / 6;
+        }
+    
+        #country-image {
+            grid-column: 2 / 3;
+            grid-row: 5 / 6;
+            height: 50px;
+            width: 50px;
+        }
+    
+        /* Hacking Section */
+        #hacking-header {
+            grid-column: 3 / 5;
+            grid-row: 2 / 3;
+            text-align: center;
+        }
+    
+        #hacking-par {
+            grid-column: 3 / 4;
+            grid-row: 3 / 4;
+        }
+    
+        #hacking-image {
+            grid-column: 4 / 5;
+            grid-row: 3 / 4;
+            height: 50px;
+            width: 50px;
+        }
+    
+        /* Dressage Section */
+        #dressage-header {
+            grid-column: 3 / 5;
+            grid-row: 4 / 5;
+            text-align: center;
+        }
+    
+        #dressage-par {
+            grid-column: 3 / 4;
+            grid-row: 5 / 6;
+        }
+    
+        #dressage-image {
+            grid-column: 4 / 5;
+            grid-row: 5 / 6;
+            height: 50px;
+            width: 50px;
+        }
+
     /* Gallery */
     #gallery {
         column-count: 2;
@@ -171,6 +229,8 @@ main {
         width: 100%;
     
     }
+
+
     
     
 }
@@ -192,23 +252,7 @@ main {
         text-align: center;
     }
 
-    /* Align the paragraphs and images for the 4 Types 2 X 2 */
-    #types-info {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 50px 200px 50px 200px;
-        justify-items: center;
-    }
 
-    #dressage {
-        grid-column: 3 / 4;
-        grid-row: 3 / 4;
-    }
-
-    #dressage {
-        grid-column: 3 / 4;
-        grid-row: 3 / 4;
-    }
 
 
 
