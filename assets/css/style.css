@@ -194,8 +194,23 @@ main {
 
     /* Align the paragraphs and images for the 4 Types 2 X 2 */
     #types-info {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 50px 200px 50px 200px;
+        justify-items: center;
     }
+
+    #dressage {
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+    }
+
+    #dressage {
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+    }
+
+
 
     /* Gallery */
     #gallery {
