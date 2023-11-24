@@ -72,7 +72,7 @@ main {
     
 }
 
-/* Small images in Types on Home Page */
+/* Small images in Types section on Home Page */
 #jumping img {
     height: 60px;
     width: 120px;
@@ -181,13 +181,20 @@ main {
     }
 
     h1 {
-
-
         font-size: 380%;
     }
 
     header a {
         font-size: 180%;
+    }
+
+    #types {
+        text-align: center;
+    }
+
+    /* Align the paragraphs and images for the 4 Types 2 X 2 */
+    #types-info {
+        display: flex;
     }
 
     /* Gallery */
