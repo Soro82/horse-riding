@@ -90,6 +90,12 @@ main {
     justify-content: space-between;
 }
 
+.feedback-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 100%;
+}
+
 
 #social-networks {
     display: flex;
