@@ -19,17 +19,14 @@ body {
 header {
     display: flex;
     width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     background-color: rgba(55, 55, 243, 0.5);
  }
  
 
 /* Remove underline from links in navbar */
 header a {
-    text-decoration: none;
-    margin-left: 5px;
-    
+    text-decoration: none;       
 }
 
 h1 {
@@ -44,14 +41,34 @@ h1 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Navigation Bar */
+/* Navigation Burger Menu */
+nav {
+    background-color: #ffffff;
+    position: absolute;
+    display: none;
+    margin-top: 38px;
+    width: 100%;
+    padding: 0 0.5rem;
+    justify-content: space-between;
+
+}
 nav ul {
     list-style-type: none;
-    position: relative;
-    letter-spacing: 4px;
-    width: 100%;
-    display: flex;
+    margin-bottom: 1em;
     
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    margin-right: 1rem;
 }
 
 #hero img {
@@ -141,10 +158,24 @@ h3 {
 
 /* Media Query for tablets and larger screens */
 @media screen and (min-width: 768px) {
-    nav ul {
+    /* Navigation Bar */
+    nav {
+        display: inline-block;
+        width: 100%;
         display: flex;
-        
+        position: relative;
     }
+
+    nav ul {
+        list-style-type: none;
+        letter-spacing: 4px;
+                
+    }
+
+    .nav-toggle-label {
+    display: none;
+    }
+
 
     h1 {
         text-align: center;
