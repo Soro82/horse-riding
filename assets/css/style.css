@@ -58,10 +58,16 @@ nav ul {
     
 }
 
-
-
 main {
     flex: 1 0 auto;
+}
+
+#types-list {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
 }
 
 /* Size images in Horse Riding types on the home page */
@@ -87,10 +93,14 @@ main {
 
 #feedback-form {
     text-align: center;
+    margin: 1rem 0;
+    background-color: aquamarine;
+    padding-bottom: 1rem;
 }
 
 .radio-buttons {
     justify-content: space-between;
+    margin: 0.5rem;
 }
 
 .feedback-button {
