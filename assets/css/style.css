@@ -75,7 +75,19 @@ main {
 
 /* Feedback Page */
 .text-input {
-    width: 20%;
+    width: 50%;
+}
+
+#first-name, #second-name {
+    margin-left: 24px;
+}
+
+#feedback-form {
+    text-align: center;
+}
+
+.radio-buttons {
+    justify-content: space-between;
 }
 
 
