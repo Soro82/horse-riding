@@ -21,6 +21,7 @@ header {
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: rgba(55, 55, 243, 0.5);
  }
  
 
@@ -93,9 +94,11 @@ h3 {
 
 #feedback-form {
     text-align: center;
-    margin: 1rem 0;
+    margin-bottom: 1rem;
+    margin-top: 2px;
     background-color: aquamarine;
-    padding-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid grey;
 }
 
 .radio-buttons {
@@ -129,6 +132,13 @@ h3 {
     color: #4a4a4a;
 }
 
+#thank-you {
+    background-color: rgb(186, 93, 186);
+    margin-top: 10%;
+    font-size: 20px;
+    max-width: 300px;
+}
+
 /* Media Query for tablets and larger screens */
 @media screen and (min-width: 768px) {
     nav ul {
@@ -149,6 +159,45 @@ h3 {
     header a {
         margin-left: 1rem;
         font-size: 140%;
+    }
+
+        
+
+    /* Gallery */
+    #gallery {
+        column-count: 2;
+        column-gap: 0;
+    }
+
+    #gallery img {
+        width: 100%;
+    
+    }
+
+    #thank-you {
+        margin-left: 30%;
+    }
+
+    
+    
+    
+}
+
+@media screen and (min-width: 992px) {
+    header a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+    h1 {
+        font-size: 380%;
+    }
+
+    header a {
+        font-size: 180%;
+    }
+
+    #types {
+        text-align: center;
     }
 
         /* Grid Display for the 4 types of horse riding */
@@ -188,10 +237,10 @@ h3 {
             grid-column: 2 / 3;
             grid-row: 3 / 4;
             align-self: center;
-            
+    
         }
-
-
+    
+    
     
         /* Cross Country Section */
         #country-header {
@@ -207,7 +256,8 @@ h3 {
     
         #country-image {
             grid-column: 2 / 3;
-            grid-row: 5 / 6;            
+            grid-row: 5 / 6;
+            align-self: center;
         }
     
         /* Hacking Section */
@@ -225,6 +275,7 @@ h3 {
         #hacking-image {
             grid-column: 4 / 5;
             grid-row: 3 / 4;
+            align-self: center;
         }
     
         /* Dressage Section */
@@ -242,40 +293,8 @@ h3 {
         #dressage-image {
             grid-column: 4 / 5;
             grid-row: 5 / 6;
+            align-self: center;
         }
-
-    /* Gallery */
-    #gallery {
-        column-count: 2;
-        column-gap: 0;
-    }
-
-    #gallery img {
-        width: 100%;
-    
-    }
-
-
-    
-    
-}
-
-@media screen and (min-width: 992px) {
-    header a:hover {
-        border-bottom: 1px solid #3a3a3a;
-    }
-
-    h1 {
-        font-size: 380%;
-    }
-
-    header a {
-        font-size: 180%;
-    }
-
-    #types {
-        text-align: center;
-    }
 
     
 
