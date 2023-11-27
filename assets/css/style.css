@@ -158,17 +158,30 @@ h3 {
 
 /* Media Query for tablets and larger screens */
 @media screen and (min-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    header a {
+        margin-left: 1rem;
+        font-size: 140%;
+    }
+
     /* Navigation Bar */
     nav {
-        display: inline-block;
-        width: 100%;
-        display: flex;
+        display: block;
+        margin-top: 0;
         position: relative;
+        width: fit-content;
+        background-color: rgba(55, 55, 243, 0.3);
     }
 
     nav ul {
         list-style-type: none;
         letter-spacing: 4px;
+        display: flex;
                 
     }
 
@@ -183,14 +196,7 @@ h3 {
         font-size: 300%;
     }
 
-    header {
-        justify-content: space-between;
-    }
 
-    header a {
-        margin-left: 1rem;
-        font-size: 140%;
-    }
 
         
 
