@@ -262,6 +262,22 @@ h3 {
         margin-bottom: 80px;
     }
 
+    #jumping-par,
+    #country-par,
+    #hacking-par,
+    #dressage-par {
+        font-size: 18px;
+    }
+
+    #types-info h2 {
+        font-size: 40px;
+    }
+
+    #types-info h3 {
+        font-size: 30px;
+    }
+
+
     /* Grid Display for the 4 types of horse riding */
     #types-info {
         display: grid;
