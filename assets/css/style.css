@@ -247,6 +247,7 @@ h3 {
     #dressage-image img {
         width: 80%;
         vertical-align: middle;
+        margin-bottom: 70px;
     
     }
 
@@ -254,12 +255,17 @@ h3 {
         width: 75%;
     }
 
-    #country-image img {
-        margin-bottom: 50px;
+
+    #hacking-image img {
+        margin-bottom: 80px;
     }
 
-    #dressage-image img {
-        margin-bottom: 80px;
+    #country-image img {
+        margin-bottom: 140px;
+    }
+
+    #dressage-image {
+        height: 85%;
     }
 
     #jumping-par,

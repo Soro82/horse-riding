@@ -65,7 +65,7 @@ The site was deployed to GitHub pages. The steps to deploy are:
     From the source section drop-down menu, select the Master Branch
     Once the Master Branch has been selected, the page provided the link to the website
 
-The live link can be found here 
+The live link can be found here
 
 ## Credits
 
@@ -74,7 +74,6 @@ The images were downloaded from Pexels.
 I used resizepixel.com to reduce the size of my images.
 Converted images from jpg to webp using pixelied.com.
 The paragraph about show jumping was copied from www.horseandhound.co.uk
-The paragraph about cross country horse riding was copied from www.wikipedia.com 
+The paragraph about cross country horse riding was copied from www.wikipedia.com
 The paragraph about hacking was copied from www.horseandhound.co.uk
 The paragraph about dressage was copied from www.horsesportireland.com
-
