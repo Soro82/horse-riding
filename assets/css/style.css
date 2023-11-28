@@ -77,6 +77,7 @@ nav ul {
 
 main {
     flex: 1 0 auto;
+    background-color: burlywood;
 }
 
 #types-list {
@@ -240,12 +241,33 @@ h3 {
         text-align: center;
     }
 
+    #jumping-image img,
+    #country-image img,
+    #hacking-image img,
+    #dressage-image img {
+        width: 80%;
+        vertical-align: middle;
+    
+    }
+
+    #jumping-image img {
+        width: 75%;
+    }
+
+    #country-image img {
+        margin-bottom: 50px;
+    }
+
+    #dressage-image img {
+        margin-bottom: 80px;
+    }
+
     /* Grid Display for the 4 types of horse riding */
     #types-info {
         display: grid;
         gap: 20px;
-        grid-template-columns: 30% 20% 30% 20%;
-        grid-template-rows: 10% 10% 35% 10% 30%;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 10% 5% 35% 5% 40%;
     
     }
     
