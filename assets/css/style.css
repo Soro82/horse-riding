@@ -350,4 +350,9 @@ h3 {
         display: inline;
     }
 
+    /* Feedback Page */
+    .text-input {
+        width: 30%;
+    }
+
 }
