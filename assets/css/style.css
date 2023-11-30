@@ -154,9 +154,20 @@ h3 {
     color: #4a4a4a;
 }
 
+#response img {
+    width: 80%;
+    align-self: center;
+}
+
+/* #response {
+    background-image: url("../images/dressage-indoor.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
 #thank-you {
     background-color: rgb(46, 207, 31);
-    margin-top: 10%;
+    /* margin-top: 10%; */
     font-size: 20px;
     max-width: 300px;
     border: 2px solid grey;
