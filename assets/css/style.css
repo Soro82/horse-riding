@@ -121,9 +121,8 @@ h3 {
 }
 
 .radio-buttons {
-    justify-content: space-between;
     margin: 0.5rem;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .feedback-button {
@@ -209,7 +208,7 @@ h3 {
     #gallery {
         column-count: 2;
         column-gap: 0;
-        margin-left: 20px;
+        /* margin-left: 40px; */
     }
 
     #gallery img {
