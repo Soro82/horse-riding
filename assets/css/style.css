@@ -372,8 +372,8 @@ h3 {
     }
 
     /* Feedback Page */
-    .text-input {
-        width: 30%;
+    #feedback-form {
+        margin: 10px 35%;
     }
 
 }
