@@ -186,7 +186,7 @@ h3 {
     h1 {
     text-align: center;
     margin-left: 40px;
-    font-size: 300%;
+    font-size: 250%;
     }
 
     /* Navigation Bar */
@@ -209,7 +209,35 @@ h3 {
     display: none;
     }
 
+    /* Make hero image smaller on larger screens to take up less real estate */
+    #hero {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    /* Size images in Horse Riding types on the home page */
+    #jumping img,
+    #country-image img,
+    #hacking-image img,
+    #dressage-image img {
+        width: 30%;
     
+    }
+
+    /* Style the horse riding types section to display side by side. */
+    #types-info {
+        display: flex;
+        
+    }
+
+    #jumping {
+        display: flex;
+        
+    }
+
+    #jumping p, #jumping img {
+        margin: 0 20px;
+    }
         
 
     /* Gallery */
