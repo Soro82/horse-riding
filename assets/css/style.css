@@ -161,7 +161,7 @@ h3 {
 
 #response img {
     width: 80%;
-
+    margin: 10%;
 }
 
 
@@ -259,10 +259,14 @@ h3 {
     #gallery img {
         width: 80%;
         margin-left: 10px;
-        padding: 10px;
-    
+        padding: 10px;    
     }
 
+    #last-image {
+        display: none;
+    }
+
+/* Feedback Form */
     #feedback-form {
         border: 1px solid rgb(102, 92, 92);
         margin: 10px 30%;
@@ -281,15 +285,19 @@ h3 {
         font-size: 100%;    
     }
 
+    /* Thank you Page */
     #thank-you {
-        margin-left: 30%;
+        margin: 10px 30%;
     }
 
-    #last-image {
-        display: none;
+    #response img {
+        width: 40%;
+        margin: 10px 30%;
     }
-
     
+    
+    
+  
     
     
 }
@@ -373,6 +381,11 @@ h3 {
 
     /* Feedback Page */
     #feedback-form {
+        margin: 10px 35%;
+    }
+
+    /* Thank you Page */
+    #thank-you {
         margin: 10px 35%;
     }
 
