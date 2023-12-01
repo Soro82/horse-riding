@@ -292,31 +292,25 @@ h3 {
         text-align: center;
     }
 
-    #jumping-image img,
-    #country-image img,
-    #hacking-image img,
-    #dressage-image img {
-        width: 80%;
-    
+    /* Size images in Horse Riding types on the home page */
+    #jumping img, #country img, #hacking img, #dressage img {
+        width: 30%;    
     }
+
+    /* Style the horse riding types section to display side by side. */
+#left-side {
+    display: flex;
+    width: 100%;
+    align-self: flex-start;
+}
+
+#right-side {
+    display: flex;
+    width: 100%;
+    align-self: flex-end;
+}
 
   
-
-    #country-image img {
-        margin-bottom: 140px;
-    }
-
-    #dressage-image {
-        height: 85%;
-    }
-
-    #jumping-par,
-    #country-par,
-    #hacking-par,
-    #dressage-par {
-        font-size: 18px;
-    }
-
     #types-info h2 {
         font-size: 40px;
     }
