@@ -93,7 +93,8 @@ h3 {
 
 /* Size images in Horse Riding types on the home page */
 #jumping img, #country img, #hacking img, #dressage img {
-    width: 100%;
+    width: 80%;
+    margin: 0 10%;
             
 }
 
@@ -211,8 +212,8 @@ h3 {
 
     /* Make hero image smaller on larger screens to take up less real estate */
     #hero {
-        width: 80%;
-        margin: 0 10%;
+        width: 60%;
+        margin: 0 20%;
     }
 
     /* Size images in Horse Riding types on the home page */
