@@ -122,7 +122,7 @@ h3 {
 
 .text-input {
     width: 100%;
-    border: 1px solid white;
+    border: 1px solid rgb(140, 135, 135);
     border-radius: 2px;
     padding-top: 5px;
 }
@@ -184,13 +184,13 @@ h3 {
 
     header a {
         margin-left: 1rem;
-        font-size: 140%;
+        font-size: 100%;
     }
 
     h1 {
     text-align: center;
     margin-left: 40px;
-    font-size: 250%;
+    font-size: 150%;
     }
 
     /* Navigation Bar */
@@ -199,7 +199,6 @@ h3 {
         margin-top: 0;
         position: relative;
         width: fit-content;
-        /* background-color: rgba(55, 55, 243, 0.3); */
     }
 
     nav ul {
@@ -265,8 +264,13 @@ h3 {
     
     }
 
+    #feedback-form {
+        border: 1px solid rgb(102, 92, 92);
+        margin: 0 30%;
+    }
+
     #thank-you {
-        margin-left: 30%;
+        margin-left: 33%;
     }
 
     #last-image {
@@ -284,7 +288,7 @@ h3 {
     }
 
     h1 {
-        font-size: 280%;
+        font-size: 220%;
     }
 
     header a {
