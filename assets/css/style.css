@@ -330,13 +330,13 @@ h3 {
     #left-side {
         display: flex;
         width: 100%;
-        align-self: flex-start;
+
     }
 
     #right-side {
         display: flex;
         width: 100%;
-        align-self: flex-end;
+
     }
 
     #jumping p, img {
@@ -356,8 +356,13 @@ h3 {
     }
 
     #jumping p, #country p, #hacking p, #dressage p {
-        width: 320px;
+        width:90%;
     }
+
+    #hacking p {
+        font-size: 15px;
+    }
+    
 
   
     #types-info h2 {
@@ -389,4 +394,16 @@ h3 {
         margin: 10px 35%;
     }
 
+}
+
+@media screen and (min-width: 1200px) {
+    /* Feedback Page */
+    #feedback-form {
+        margin: 10px 40%;
+    }
+
+    /* Thank you Page */
+    #thank-you {
+        margin: 10px 40%;
+    }
 }
