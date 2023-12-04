@@ -17,32 +17,43 @@ There are pictures in the Gallery page of people horse riding in the different t
   *The second link is to the Gallery page which contains pictures of horse and of people horse riding.
   *The third link is to the Feedback page where users can tell us what type of horse riding they enjoy the most.
 
-### Home page
+*Home page
 
-The Home page has a picture of two horses running in the wild in black and white.
-I chose this picture for the hero image because it is only 400KB in size so it will load faster than any of the other pictures.
-In the top right corner is the navigation bar.
+  *The Home page has a hero image of a person show jumping.
+  *Below the hero image is an unordered list of the four main types of horse riding.
+  *The rest of the page is divided into four sections, one for each type of horse riding.
+  *Each section has a heading, an image and a paragraph about that type of horse riding.
 
-#### Main
+*Footer
 
-The main section starts off with an unordered list of the 4 types of horse riding.
-Below this is divided into 4 sections, 1 for each type of horse riding.
-Each section has a paragragh explaining the type of horse riding and a picture.
+  *The footer section contains 4 links to Facebook, Twitter, YouTube and Instagram.
+  *The footer is the same on all three pages.
 
-### Footer
+*Gallery
+  *The gallery page shows images of people horse riding in the 4 different types of horse riding.
 
-The footer section contains 4 links to Facebook, Twitter, YouTube and Instagram.
+*Feedback Page
 
-### Feedback Page
-
-The Feedback page contains 3 labels and 3 text boxes for the user's first name, second name and email address.
-It will also have 4 radio buttons allowing them to choose which type of horse riding they like to do.
-There is a reset button to clear the form and and Submit button to submit the information.
+  *The Feedback page contains 3 labels and 3 text boxes for the user's first name, second name and email address.
+  *It has 4 radio buttons allowing the user to choose which type of horse riding they like to do.
+  *At the bottom of the form there is a Submit button to submit their information.
+  *Below the feedback form there is an IFrame with a link to Google Maps.
 
 ## Responsiveness
 
-The 4 sections on the main section will display 2 wide and 2 high on desktop view.
-They will display in a single column for mobile and tablet view.
+*Home Page
+
+  *The four sections on the Home Page are displayed in a single column on mobile phone devices.
+  *On tablets each section shows the heading on top and the image and the paragraph side by side underneath. They are displayed in a single column.
+  *For all larger screens they are displayed the same as on tablets but in two columns with two sections in each.
+
+*Gallery
+  *On mobile phone devices the gallery is displayed in a single column.
+  *On tablets they are in two columns of four with the last image in the first column hidden to keep it even.
+  *On larger screens the gallery is displayed in three columns of three.
+
+*Feedback Form
+  *The feedback form will be centered on all screen sizes.
 
 ## Testing
 
