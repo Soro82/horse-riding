@@ -139,7 +139,7 @@ h3 {
     font-size: 100%;    
 }
 
-
+/* Footer */
 #social-networks {
     display: flex;
     width: 100%;
@@ -148,9 +148,7 @@ h3 {
     bottom: 0;
     padding: 20px 0;
     height: 30px;
-    text-align: center;
-    
-
+    text-align: center; 
 }
 
 #social-networks i {
@@ -159,11 +157,11 @@ h3 {
     color: #4a4a4a;
 }
 
+/* Response Page to Feedback Form */
 #response img {
     width: 80%;
     margin: 10%;
 }
-
 
 #thank-you {
     background-color: rgb(46, 207, 31);
@@ -203,8 +201,7 @@ h3 {
     nav ul {
         list-style-type: none;
         letter-spacing: 4px;
-        display: flex;
-                
+        display: flex;                
     }
 
     .nav-toggle-label {
@@ -223,14 +220,8 @@ h3 {
     }
 
     /* Style the horse riding types section to display side by side. */
-    #types-info {
-        display: flex;
-        
-    }
-
     #jumping, #country, #hacking, #dressage {
-        display: flex;
-        
+        display: flex;        
     }
 
     #jumping p, img {
@@ -293,13 +284,7 @@ h3 {
     #response img {
         width: 40%;
         margin: 10px 30%;
-    }
-    
-    
-    
-  
-    
-    
+    }  
 }
 
 @media screen and (min-width: 992px) {
@@ -330,13 +315,11 @@ h3 {
     #left-side {
         display: flex;
         width: 100%;
-
     }
 
     #right-side {
         display: flex;
         width: 100%;
-
     }
 
     #jumping p, img {
@@ -361,10 +344,8 @@ h3 {
 
     #hacking p {
         font-size: 15px;
-    }
-    
+    }   
 
-  
     #types-info h2 {
         font-size: 40px;
     }
