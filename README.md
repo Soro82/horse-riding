@@ -10,12 +10,12 @@ There are pictures in the Gallery page of people horse riding in the different t
 
 ## Features
 
-### Navigation
+*Navigation
 
-The navigation bar is in the top right of the page inside the header on all three pages.
-The first link is to the Home page.
-The second link is to the Gallery page which contains pictures of horse and of people horse riding.
-The third link is to the Feedback page where users can tell us what type of horse riding they enjoy the most.
+  *The navigation bar is in the top right of the page inside the header on all three pages.
+  *The first link is to the Home page.
+  *The second link is to the Gallery page which contains pictures of horse and of people horse riding.
+  *The third link is to the Feedback page where users can tell us what type of horse riding they enjoy the most.
 
 ### Home page
 
