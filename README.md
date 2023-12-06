@@ -8,6 +8,28 @@ The Horse Riding website is for people who like horse riding or who are interest
 
 There are pictures in the Gallery page of people horse riding in the different types of horse riding. The feedback page allows the user to tell us what type of horse riding they enjoy.
 
+## Wireframes
+
+I used [Balsamiq](https://balsamiq.com/) to create wireframes for my website to plan the layout of the pages. I found this very useful when I started writing the code for the website.
+
+* Mobile View
+
+  * Home
+  * Gallery
+  * Feedback
+
+* Tablet View
+
+  * Home
+  * Gallery
+  * Feedback
+
+* Laptop/Desktop View
+
+  * Home
+  * Gallery
+  * Feedback
+
 ## Features
 
 * Navigation
@@ -59,6 +81,13 @@ There are pictures in the Gallery page of people horse riding in the different t
 
 ## Testing
 
+* I tested the website using Chrome, Firefox and Microsoft Edge.
+* I confirmed that the website is responsive and fully functional using Chrome devtools and www.responsivedesignchecker.com.
+* I have confirmed the form on the feedback page works and requires entries in all fields except the text area for any other information. When the Submit button is clicked it will open the response page.
+* I have confirmed that the navbar works on the response page to allow the user to return to the website.
+* I have confirmed that the images, paragraphs and heading in the types of horse riding section on the Home page line up horizontally and vertically.
+* I have confirmed that the images in the gallery are shown in two columns of four on tablet screens and three columns of three on larger screens.
+
 ### Bugs
 
 ##### Fixed Bugs
@@ -90,13 +119,21 @@ Click [here](https://soro82.github.io/horse-riding/) for the live link.
 
 ## Credits
 
+### Content
+
 * The code to make the social media links was taken from the CI Love Running project.
-* The images were downloaded from Pexels.
-* I used www.resizepixel.com to reduce the size of my images.
-* The images were converted from jpg to webp using www.pixelied.com.
 * The paragraph about show jumping was copied from www.horseandhound.co.uk.
 * The paragraph about cross country horse riding was copied from www.wikipedia.com.
 * The paragraph about hacking was copied from www.horseandhound.co.uk.
 * The paragraph about dressage was copied from www.horsesportireland.com.
+
+### Media
+
+* The images were downloaded from Pexels.
+* I used www.resizepixel.com to reduce the size of my images.
+* The images were converted from jpg to webp using www.pixelied.com.
+
+### Acknowledgments
+
 * I used www.w3schools.com to learn how to use Flexbox in CSS.
 * I got help with my first readme file from www.github.com/kera-cudmore/readme-examples and the Love Running readme file on the Code Institute LMS.
