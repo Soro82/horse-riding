@@ -377,11 +377,6 @@ h3 {
 }
 
 @media screen and (min-width: 1200px) {
-    /* Feedback Page */
-    #feedback-form {
-        margin: 10px 40%;
-    }
-
     /* Thank you Page */
     #thank-you {
         margin: 10px 40%;
