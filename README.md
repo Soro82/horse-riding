@@ -1,6 +1,6 @@
 # Horse Riding
 
-## Planning
+Click [here](https://soro82.github.io/horse-riding/) for the live link.
 
 ## Introduction
 
@@ -61,6 +61,15 @@ There are pictures in the Gallery page of people horse riding in the different t
 
 ### Bugs
 
+##### Fixed Bugs
+
+* When testing the website using Wave, there were two errors on the Home page. I added an aria label to the input and the label for the toggle menu and it fixed the problem.
+* When testing using Responsive Website Design Tester, the text area in the feedback form would push outside the form border on screens larger than 1200px. I removed the code to adjust the margins for the feedback form in the media query for min 1200px and it fixed the problem.
+
+##### Unfixed Bugs
+
+* There are no unfixed bugs.
+
 ### Validator Testing
 
 #### HTML
@@ -69,24 +78,25 @@ There are pictures in the Gallery page of people horse riding in the different t
 
 #### Accessibility
 
-### Unfixed bugs
-
 ## Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are:
-    In the GitHub repository, navigate to the settings tab
-    From the source section drop-down menu, select the Master Branch
-    Once the Master Branch has been selected, the page provided the link to the website
 
-The live link can be found here
+* In the GitHub repository, navigate to the settings tab.
+* From the source section drop-down menu, select the Master Branch.
+* Once the Master Branch has been selected, the page provided the link to the website.
+
+Click [here](https://soro82.github.io/horse-riding/) for the live link.
 
 ## Credits
 
-The code to make the social media links was taken from the CI Love Running project.
-The images were downloaded from Pexels.
-I used resizepixel.com to reduce the size of my images.
-Converted images from jpg to webp using pixelied.com.
-The paragraph about show jumping was copied from www.horseandhound.co.uk
-The paragraph about cross country horse riding was copied from www.wikipedia.com
-The paragraph about hacking was copied from www.horseandhound.co.uk
-The paragraph about dressage was copied from www.horsesportireland.com
+* The code to make the social media links was taken from the CI Love Running project.
+* The images were downloaded from Pexels.
+* I used www.resizepixel.com to reduce the size of my images.
+* The images were converted from jpg to webp using www.pixelied.com.
+* The paragraph about show jumping was copied from www.horseandhound.co.uk.
+* The paragraph about cross country horse riding was copied from www.wikipedia.com.
+* The paragraph about hacking was copied from www.horseandhound.co.uk.
+* The paragraph about dressage was copied from www.horsesportireland.com.
+* I used www.w3schools.com to learn how to use Flexbox in CSS.
+* I got help with my first readme file from www.github.com/kera-cudmore/readme-examples and the Love Running readme file on the Code Institute LMS.
