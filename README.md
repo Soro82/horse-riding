@@ -14,21 +14,21 @@ I used [Balsamiq](https://balsamiq.com/) to create wireframes for my website to 
 
 * Mobile View
 
-  * Home
-  * Gallery
-  * Feedback
+  * [Home Page](documentation/wireframes/iphone-home-page.png)
+  * [Gallery Page](documentation/wireframes/iphone-gallery-page.png)
+  * [Feedback Page](documentation/wireframes/iphone-feedback-page.png)
 
 * Tablet View
 
-  * Home
-  * Gallery
-  * Feedback
+  * [Home Page](documentation/wireframes/tablet-home-page.png)
+  * [Gallery Page](documentation/wireframes/tablet-gallery-page.png)
+  * [Feedback Page](documentation/wireframes/tablet-feedback-page.png)
 
 * Laptop/Desktop View
 
-  * Home
-  * Gallery
-  * Feedback
+  * [Home Page](documentation/wireframes/home-page-desktop.png)
+  * [Gallery Page](documentation/wireframes/desktop-gallery-page.png)
+  * [Feedback Page](documentation/wireframes/desktop-feedback-page.png)
 
 ## Features
 
@@ -46,6 +46,8 @@ I used [Balsamiq](https://balsamiq.com/) to create wireframes for my website to 
   * The rest of the page is divided into four sections, one for each type of horse riding.
   * Each section has a heading, an image and a paragraph about that type of horse riding.
 
+![Home Page in desktop view](documentation/screenshots/desktop-home-page1.png)
+
 * Footer
 
   * The footer section contains 4 links to Facebook, Twitter, YouTube and Instagram.
@@ -54,12 +56,16 @@ I used [Balsamiq](https://balsamiq.com/) to create wireframes for my website to 
 * Gallery
   * The gallery page shows images of people horse riding in the 4 different types of horse riding.
 
+![Gallery Page in desktop view](documentation/screenshots/desktop-gallery.png)
+
 * Feedback Page
 
   * The Feedback page contains 3 labels and 3 text boxes for the user's first name, second name and email address.
   * It has 4 radio buttons allowing the user to choose which type of horse riding they like to do.
   * At the bottom of the form there is a Submit button to submit their information.
   * Below the feedback form there is an IFrame with a link to Google Maps.
+
+![Feedback Page in desktop view](documentation/screenshots/desktop-feedback.png)
 
 ## Responsiveness
 
@@ -69,15 +75,21 @@ I used [Balsamiq](https://balsamiq.com/) to create wireframes for my website to 
   * On tablets each section shows the heading on top and the image and the paragraph side by side underneath. They are displayed  in a single column.
   * For all larger screens they are displayed the same as on tablets but in two columns with two sections in each.
 
+![Home Page in mobile phone view](documentation/screenshots/mobile-home-page.png)
+
 * Gallery
   
   * On mobile phone devices the gallery is displayed in a single column.
   * On tablets they are in two columns of four with the last image in the first column hidden to keep it even.
   * On larger screens the gallery is displayed in three columns of three.
 
+![Gallery Page in mobile phone view](documentation/screenshots/mobile-gallery-page.png)
+
 * Feedback Form
 
   * The feedback form will be centered on all screen sizes.
+
+![Feedback Page in mobile phone view](documentation/screenshots/mobile-feedback-page.png)
 
 ## Testing
 
@@ -101,7 +113,13 @@ I used [Balsamiq](https://balsamiq.com/) to create wireframes for my website to 
 
 ### Validator Testing
 
-#### HTML
+* HTML
+  * No errors were returned when I passed the code through the official W3C validator.
+  * You can view the results on the following links:
+  * [Home Page](documentation/testing/home-validation.png)
+  * [Gallery Page](documentation/testing/gallery-validation.png)
+  * [Feedback Page](documentation/testing/feedback-validation.png)
+  * [Response Page](documentation/testing/response-validation.png)
 
 #### CSS
 
