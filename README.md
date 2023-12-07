@@ -121,9 +121,18 @@ I used [Balsamiq](https://balsamiq.com/) to create wireframes for my website to 
   * [Feedback Page](documentation/testing/feedback-validation.png)
   * [Response Page](documentation/testing/response-validation.png)
 
-#### CSS
+* CSS
+  * No errors were returned When I passed the code through the official Jigsaw validator.
+  * You can view the results [here](documentation/testing/style-validation.png)
 
-#### Accessibility
+* Accessibility
+  * The website has 100% Accessibility when I ran it through Lighthouse in devtools.
+
+    **Desktop**
+    ![Lighthouse results from Desktop test](documentation/testing/lighthouse-desktop.png)
+
+    **Mobile**
+    ![Lighthouse results from Desktop test](documentation/testing/lighthouse-mobile.png)
 
 ## Deployment
 
