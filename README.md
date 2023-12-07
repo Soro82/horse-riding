@@ -32,6 +32,8 @@ I used [Balsamiq](https://balsamiq.com/) to create wireframes for my website to 
   * [Gallery Page](documentation/wireframes/desktop-gallery-page.png)
   * [Feedback Page](documentation/wireframes/desktop-feedback-page.png)
 
+[Back to Top](#horse-riding)
+
 ## Features
 
 * Navigation
@@ -73,6 +75,8 @@ I used [Balsamiq](https://balsamiq.com/) to create wireframes for my website to 
 
 ![Feedback Page in desktop view](documentation/screenshots/desktop-feedback.png)
 
+[Back to Top](#horse-riding)
+
 ## Responsiveness
 
 * Home Page
@@ -102,6 +106,8 @@ I used [Balsamiq](https://balsamiq.com/) to create wireframes for my website to 
   * When clicked the navbar will open as a drop-down menu over the top of the hero image.
 
 ![Burger menu on Home Page](documentation/screenshots/mobile-burger-menu.png)
+
+[Back to Top](#horse-riding)
 
 ## Testing
 
@@ -146,6 +152,8 @@ I used [Balsamiq](https://balsamiq.com/) to create wireframes for my website to 
     **Mobile**
     ![Lighthouse results from Desktop test](documentation/testing/lighthouse-mobile.png)
 
+[Back to Top](#horse-riding)
+
 ## Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are:
@@ -155,6 +163,8 @@ The site was deployed to GitHub pages. The steps to deploy are:
 * Once the Master Branch has been selected, the page provided the link to the website.
 
 Click [here](https://soro82.github.io/horse-riding/) for the live link.
+
+[Back to Top](#horse-riding)
 
 ## Credits
 
