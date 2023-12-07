@@ -8,6 +8,8 @@ The Horse Riding website is for people who like horse riding or who are interest
 
 There are pictures in the Gallery page of people horse riding in the different types of horse riding. The feedback page allows the user to tell us what type of horse riding they enjoy.
 
+![Am I Responsive view of website](documentation/screenshots/am-i-responsive.png)
+
 ## Wireframes
 
 I used [Balsamiq](https://balsamiq.com/) to create wireframes for my website to plan the layout of the pages. I found this very useful when I started writing the code for the website.
@@ -39,6 +41,8 @@ I used [Balsamiq](https://balsamiq.com/) to create wireframes for my website to 
   * The second link is to the Gallery page which contains pictures of horse and of people horse riding.
   * The third link is to the Feedback page where users can tell us what type of horse riding they enjoy the most.
 
+![Image of the Navbar](documentation/screenshots/navbar.png)
+
 * Home page
 
   * The Home page has a hero image of a person show jumping.
@@ -52,6 +56,8 @@ I used [Balsamiq](https://balsamiq.com/) to create wireframes for my website to 
 
   * The footer section contains 4 links to Facebook, Twitter, YouTube and Instagram.
   * The footer is the same on all three pages.
+
+![Image of the Footer](documentation/screenshots/footer.png)
 
 * Gallery
   * The gallery page shows images of people horse riding in the 4 different types of horse riding.
@@ -90,6 +96,12 @@ I used [Balsamiq](https://balsamiq.com/) to create wireframes for my website to 
   * The feedback form will be centered on all screen sizes.
 
 ![Feedback Page in mobile phone view](documentation/screenshots/mobile-feedback-page.png)
+
+* Navigation
+  * On mobile phone devices the navbar changes to a burger menu icon.
+  * When clicked the navbar will open as a drop-down menu over the top of the hero image.
+
+![Burger menu on Home Page](documentation/screenshots/mobile-burger-menu.png)
 
 ## Testing
 
