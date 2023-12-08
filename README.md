@@ -36,42 +36,43 @@ I used [Balsamiq](https://balsamiq.com/) to create wireframes for my website to 
 
 ## Features
 
-* Navigation
+### Navigation
 
-  * The navigation bar is in the top right of the page inside the header on all three pages.
-  * The first link is to the Home page.
-  * The second link is to the Gallery page which contains pictures of horse and of people horse riding.
-  * The third link is to the Feedback page where users can tell us what type of horse riding they enjoy the most.
+* The navigation bar is in the top right of the page inside the header on all three pages.
+* The first link is to the Home page.
+* The second link is to the Gallery page which contains pictures of horse and of people horse riding.
+* The third link is to the Feedback page where users can tell us what type of horse riding they enjoy the most.
 
 ![Image of the Navbar](documentation/screenshots/navbar.png)
 
-* Home page
+### Home page
 
-  * The Home page has a hero image of a person show jumping.
-  * Below the hero image is an unordered list of the four main types of horse riding.
-  * The rest of the page is divided into four sections, one for each type of horse riding.
-  * Each section has a heading, an image and a paragraph about that type of horse riding.
+* The Home page has a hero image of a person show jumping.
+* Below the hero image is an unordered list of the four main types of horse riding.
+* The rest of the page is divided into four sections, one for each type of horse riding.
+* Each section has a heading, an image and a paragraph about that type of horse riding.
 
 ![Home Page in desktop view](documentation/screenshots/desktop-home-page1.png)
 
-* Footer
+### Footer
 
-  * The footer section contains 4 links to Facebook, Twitter, YouTube and Instagram.
-  * The footer is the same on all three pages.
+* The footer section contains 4 links to Facebook, Twitter, YouTube and Instagram.
+* The footer is the same on all three pages.
 
 ![Image of the Footer](documentation/screenshots/footer.png)
 
-* Gallery
-  * The gallery page shows images of people horse riding in the 4 different types of horse riding.
+### Gallery
+
+* The gallery page shows images of people horse riding in the 4 different types of horse riding.
 
 ![Gallery Page in desktop view](documentation/screenshots/desktop-gallery.png)
 
-* Feedback Page
+### Feedback Page
 
-  * The Feedback page contains 3 labels and 3 text boxes for the user's first name, second name and email address.
-  * It has 4 radio buttons allowing the user to choose which type of horse riding they like to do.
-  * At the bottom of the form there is a Submit button to submit their information.
-  * Below the feedback form there is an IFrame with a link to Google Maps.
+* The Feedback page contains 3 labels and 3 text boxes for the user's first name, second name and email address.
+* It has 4 radio buttons allowing the user to choose which type of horse riding they like to do.
+* At the bottom of the form there is a Submit button to submit their information.
+* Below the feedback form there is an IFrame with a link to Google Maps.
 
 ![Feedback Page in desktop view](documentation/screenshots/desktop-feedback.png)
 
@@ -79,31 +80,38 @@ I used [Balsamiq](https://balsamiq.com/) to create wireframes for my website to 
 
 ## Responsiveness
 
-* Home Page
+### Home Page
 
-  * The four sections on the Home Page are displayed in a single column on mobile phone devices.
-  * On tablets each section shows the heading on top and the image and the paragraph side by side underneath. They are displayed  in a single column.
-  * For all larger screens they are displayed the same as on tablets but in two columns with two sections in each.
+* The four sections on the Home Page are displayed in a single column on mobile phone devices.
+* On tablets each section shows the heading on top and the image and the paragraph side by side underneath. They are displayed  in a single column.
+* For all larger screens they are displayed the same as on tablets but in two columns with two sections in each.
 
 ![Home Page in mobile phone view](documentation/screenshots/mobile-home-page.png)
 
-* Gallery
+![Home Page in tablet view](documentation/screenshots/tablet-home-page.png)
+
+### Gallery
   
-  * On mobile phone devices the gallery is displayed in a single column.
-  * On tablets they are in two columns of four with the last image in the first column hidden to keep it even.
-  * On larger screens the gallery is displayed in three columns of three.
+* On mobile phone devices the gallery is displayed in a single column.
+* On tablets they are in two columns of four with the last image in the first column hidden to keep it even.
+* On larger screens the gallery is displayed in three columns of three.
 
 ![Gallery Page in mobile phone view](documentation/screenshots/mobile-gallery-page.png)
 
-* Feedback Form
+![Gallery Page in tablet view](documentation/screenshots/tablet-gallery-page.png)
 
-  * The feedback form will be centered on all screen sizes.
+### Feedback Form
+
+* The feedback form will be centered on all screen sizes.
 
 ![Feedback Page in mobile phone view](documentation/screenshots/mobile-feedback-page.png)
 
-* Navigation
-  * On mobile phone devices the navbar changes to a burger menu icon.
-  * When clicked the navbar will open as a drop-down menu over the top of the hero image.
+![Feedback Page in tablet view](documentation/screenshots/tablet-feedback-page.png)
+
+### Navigation
+
+* On mobile phone devices the navbar changes to a burger menu icon.
+* When clicked the navbar will open as a drop-down menu over the top of the hero image.
 
 ![Burger menu on Home Page](documentation/screenshots/mobile-burger-menu.png)
 
@@ -146,10 +154,12 @@ I used [Balsamiq](https://balsamiq.com/) to create wireframes for my website to 
 * Accessibility
   * The website has 100% Accessibility when I ran it through Lighthouse in devtools.
 
-    **Desktop**
+#### Desktop
+
     ![Lighthouse results from Desktop test](documentation/testing/lighthouse-desktop.png)
 
-    **Mobile**
+#### Mobile
+
     ![Lighthouse results from Desktop test](documentation/testing/lighthouse-mobile.png)
 
 [Back to Top](#horse-riding)
