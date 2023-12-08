@@ -13,6 +13,7 @@ There are pictures in the Gallery page of people horse riding in the different t
 ## Table of Contents
 
 * [Wireframes](#wireframes)
+* [Design](#design)
 * [Features](#features)
 * [Responsiveness](#responsiveness)
 * [Testing](#testing)
@@ -42,6 +43,25 @@ I used [Balsamiq](https://balsamiq.com/) to create wireframes for my website to 
   * [Feedback Page](documentation/wireframes/desktop-feedback-page.png)
 
 [Back to Top](#horse-riding)
+
+## Design
+
+### Color Scheme
+
+* I decided to use rgba(232, 227, 220, 0.742) as the background color for my webiste.
+* I picked it because it is a nice soft color that doesn't take the user's attention away from the content of the website.
+
+### Font
+
+* I decided to use the Roboto font family for my website.
+* As this was my first website I googled the top ten font families to use on websites and I thought Roboto was the easiest to read.
+* I imported them from [Google Fonts](https://fonts.google.com/)
+
+### Imagery
+
+* The images were downloaded from [Pexels](https://www.pexels.com).
+* I used www.resizepixel.com to reduce the size of my images.
+* The images were converted from jpg to webp using www.pixelied.com.
 
 ## Features
 
@@ -206,8 +226,11 @@ Click [here](https://soro82.github.io/horse-riding/) for the live link.
 * The images were downloaded from Pexels.
 * I used www.resizepixel.com to reduce the size of my images.
 * The images were converted from jpg to webp using www.pixelied.com.
+* I downloaded the favicon from www.freepik.com.
 
 ### Acknowledgments
 
 * I used www.w3schools.com to learn how to use Flexbox in CSS.
 * I got help with my first readme file from www.github.com/kera-cudmore/readme-examples and the Love Running readme file on the Code Institute LMS.
+* I watched this YouTube video by Kasia Bogucka from Code Institute to help me get started on my project [Portfolio Project 1: The guide to MVP](https://www.youtube.com/watch?v=Lz_44zbB7U0&list=PL_7334VduOHsrWzhu5Ta2lrkp016kcBWY&index=24&ab_channel=CodeInstitute)
+* I used this YouTube video to learn how to take screenshots and use the snipping tool for the images in my readme file [link](https://www.youtube.com/shorts/B__qNfRuOJI)
