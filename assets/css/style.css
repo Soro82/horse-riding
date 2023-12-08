@@ -168,6 +168,7 @@ h3 {
     max-width: 300px;
     border: 2px solid grey;
     border-radius: 5px;
+    margin: 20px 10%;
 }
 
 /* Media Query for tablets and larger screens */
