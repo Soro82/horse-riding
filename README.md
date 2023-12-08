@@ -107,12 +107,6 @@ I used [Balsamiq](https://balsamiq.com/) to create wireframes for my website to 
 
 [Back to Top](#horse-riding)
 
-### Response Page
-
-* When the user submits their information on the Feedback Page the Response Page will open with a message to thank them and an image of a person horse riding.
-
-![Response Page in mobile phone view](documentation/screenshots/mobile-response-page.png)
-
 ## Responsiveness
 
 ### Home Page
@@ -142,6 +136,12 @@ I used [Balsamiq](https://balsamiq.com/) to create wireframes for my website to 
 ![Feedback Page in mobile phone view](documentation/screenshots/mobile-feedback-page.png)
 
 ![Feedback Page in tablet view](documentation/screenshots/tablet-feedback-page.png)
+
+### Response Page
+
+* When the user submits their information on the Feedback Page the Response Page will open with a message to thank them and an image of a person horse riding.
+
+![Response Page in mobile phone view](documentation/screenshots/mobile-response-page.png)
 
 ### Navigation
 
