@@ -10,6 +10,15 @@ There are pictures in the Gallery page of people horse riding in the different t
 
 ![Am I Responsive view of website](documentation/screenshots/am-i-responsive.png)
 
+## Table of Contents
+
+* [Wireframes](#wireframes)
+* [Features](#features)
+* [Responsiveness](#responsiveness)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
+
 ## Wireframes
 
 I used [Balsamiq](https://balsamiq.com/) to create wireframes for my website to plan the layout of the pages. I found this very useful when I started writing the code for the website.
