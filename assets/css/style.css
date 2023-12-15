@@ -138,6 +138,11 @@ h3 {
     font-size: 100%;    
 }
 
+#map {
+    display: flex;
+    justify-content: center;
+}
+
 /* Footer */
 #social-networks {
     display: flex;
