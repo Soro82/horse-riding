@@ -141,7 +141,13 @@ h3 {
 #map {
     display: flex;
     justify-content: center;
-    
+    margin: 10px;
+}
+
+/* Adjust size of map on Feedback Page on smaller screens */
+iframe {
+    max-width: 250px;
+    max-height: 150px;
 }
 
 /* Footer */
@@ -282,6 +288,12 @@ h3 {
         font-size: 100%;    
     }
 
+    /* Adjust size of map on Feedback Page on smaller screens */
+    iframe {
+        max-width: 600px;
+        max-height: 200px;
+    }
+
     /* Thank you Page */
     #thank-you {
         max-width: 300px;
@@ -370,6 +382,11 @@ h3 {
 
     #last-image {
         display: inline;
+    }
+
+    /* Adjust size of map on Feedback Page on smaller screens */
+    iframe {
+        max-width: 800px;
     }
 
     /* Thank you Page */
