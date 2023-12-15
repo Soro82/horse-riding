@@ -159,16 +159,16 @@ h3 {
 /* Response Page to Feedback Form */
 #response img {
     width: 80%;
-    margin: 10%;
+    margin: 0 10%;
 }
 
 #thank-you {
-    background-color: rgb(46, 207, 31);
-    font-size: 20px;
-    max-width: 300px;
+    background-color: rgba(232, 227, 240, 0.742);
+    font-size: 14px;
+    max-width: 200px;
     border: 2px solid grey;
     border-radius: 5px;
-    margin: 20px 10%;
+    margin: 20px auto;
 }
 
 /* Media Query for tablets and larger screens */
