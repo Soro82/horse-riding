@@ -169,6 +169,7 @@ h3 {
     border: 2px solid grey;
     border-radius: 5px;
     margin: 20px auto;
+    padding: 5px;
 }
 
 /* Media Query for tablets and larger screens */
@@ -278,12 +279,13 @@ h3 {
 
     /* Thank you Page */
     #thank-you {
-        margin: 10px 30%;
+        max-width: 300px;
+        font-size: 16px;
     }
 
     #response img {
-        width: 40%;
-        margin: 10px 30%;
+        width: 60%;
+        margin: 10px 20%;
     }  
 }
 
@@ -365,22 +367,24 @@ h3 {
         display: inline;
     }
 
-    /* Feedback Page */
-    #feedback-form {
-        margin: 10px 35%;
-    }
-
     /* Thank you Page */
     #thank-you {
-        margin: 10px 35%;
+        max-width: 400px;
+        font-size: 18px;
     }
+
+    #response img {
+        width: 60%;
+        margin: 10px 20%;
+    } 
 
 }
 
 @media screen and (min-width: 1200px) {
     /* Thank you Page */
     #thank-you {
-        margin: 10px 40%;
+        max-width: 600px;
+        font-size: 20px;
     }
     
 }
