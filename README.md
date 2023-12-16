@@ -171,6 +171,15 @@ I used [Balsamiq](https://balsamiq.com/) to create wireframes for my website to 
 * I have confirmed that the images, paragraphs and heading in the types of horse riding section on the Home page line up horizontally and vertically.
 * I have confirmed that the images in the gallery are shown in two columns of four on tablet screens and three columns of three on larger screens.
 
+I tested the website on different screen sizes using Devtools and www.responsivedesignchecker.com.
+
+| Screen Size | Result |
+| --- | --- |
+| < 768px Phone | Passed |
+| > 768px Tablet | Passed |
+| > 992px Laptop | Passed |
+| > 1200px Desktop | Passed |
+
 ### Bugs
 
 ##### Fixed Bugs
