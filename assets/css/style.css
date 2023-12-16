@@ -186,6 +186,7 @@ iframe {
 
 /* Media Query for tablets and larger screens */
 @media screen and (min-width: 768px) {
+    /* Header */
     header {
         display: flex;
         justify-content: space-between;
@@ -254,6 +255,7 @@ iframe {
         margin: 0;
     }
 
+    /* Hide last image in Gallery when displayed in two columns */
     #last-image {
         display: none;
     }
@@ -314,10 +316,14 @@ iframe {
 
     /* Size images in Horse Riding types on the home page */
     #jumping img, #country img, #hacking img, #dressage img {
-        width: 160px;
-        height: 190px;
+        width: 40%;
         margin: 0 10px;
     }
+
+    #jumping p, #country p, #hacking p, #dressage p {
+        margin: 0;
+        width: 90%;
+    } 
 
     /* Style the horse riding types section to display side by side. */
     #left-side {
@@ -328,26 +334,6 @@ iframe {
     #right-side {
         display: flex;
         width: 100%;
-    }
-
-    #jumping p, img {
-            margin: 0;
-    }
-
-    #country p, img {
-        margin: 0;
-    }
-
-    #hacking p, img {
-        margin: 0;
-    }
-
-    #dressage p, img {
-        margin: 0;
-    }
-
-    #jumping p, #country p, #hacking p, #dressage p {
-        width:90%;
     }
 
     #hacking p {
@@ -369,6 +355,7 @@ iframe {
         column-gap: 5px;
     }
 
+    /* Show last image in Gallery when display in three columns */
     #last-image {
         display: inline;
     }
@@ -398,4 +385,11 @@ iframe {
         font-size: 20px;
     }
     
+}
+
+@media screen and (min-width: 1600px) {
+    /* Size images in Horse Riding types on the home page */
+    #jumping img, #country img, #hacking img, #dressage img {
+        width: 60%;
+    }
 }
