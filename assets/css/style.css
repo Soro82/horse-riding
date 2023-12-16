@@ -229,33 +229,20 @@ iframe {
 
     /* Size images in Horse Riding types on the home page */
     #jumping img, #country img, #hacking img, #dressage img {
-        width: 30%;
+        width: 40%;
         margin: 0;
         padding-left: 5px;    
     }
+
+    #jumping p, #country p, #hacking p, #dressage p {
+        margin: 0 20px;
+    } 
 
     /* Style the horse riding types section to display side by side. */
     #jumping, #country, #hacking, #dressage {
         display: flex;        
     }
-
-    #jumping p, img {
-        margin: 0 20px;
-    }
-
-    #country p, img {
-        margin: 0 20px;
-    }
-
-    #hacking p, img {
-        margin: 0 20px;
-    }
-
-    #dressage p, img {
-        margin: 0 20px;
-    }
-        
-
+      
     /* Gallery */
     #gallery {
         column-count: 2;
