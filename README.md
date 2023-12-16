@@ -186,6 +186,7 @@ I tested the website on different screen sizes using Devtools and www.responsive
 
 * When testing the website using Wave, there were two errors on the Home page. I added an aria label to the input and the label for the toggle menu and it fixed the problem.
 * When testing using Responsive Website Design Tester, the text area in the feedback form would push outside the form border on screens larger than 1200px. I removed the code to adjust the margins for the feedback form in the media query for min 1200px and it fixed the problem.
+* I reduced the font size of the Hacking paragraph by one pixel to align the Hacking and Dressage images vertically on larger screen sizes.
 
 ##### Unfixed Bugs
 
@@ -268,6 +269,7 @@ Forking is a way to make a copy of the original repository on your GitHub accoun
 ### Acknowledgments
 
 * I used www.w3schools.com to learn how to use Flexbox in CSS.
+* I used Devtools and www.responsivedesignchecker.com to test the responsiveness of the website.
 * I got help with my first readme file from www.github.com/kera-cudmore/readme-examples and the Love Running readme file on the Code Institute LMS.
 * I watched this YouTube video by Kasia Bogucka from Code Institute to help me get started on my project [Portfolio Project 1: The guide to MVP](https://www.youtube.com/watch?v=Lz_44zbB7U0&list=PL_7334VduOHsrWzhu5Ta2lrkp016kcBWY&index=24&ab_channel=CodeInstitute)
 * I used this YouTube video to learn how to take screenshots and use the snipping tool for the images in my readme file [link](https://www.youtube.com/shorts/B__qNfRuOJI)
