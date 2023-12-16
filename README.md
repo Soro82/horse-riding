@@ -12,6 +12,7 @@ There are pictures in the Gallery page of people horse riding in the different t
 
 ## Table of Contents
 
+* [User Stories](#user-stories)
 * [Wireframes](#wireframes)
 * [Design](#design)
 * [Features](#features)
@@ -19,6 +20,15 @@ There are pictures in the Gallery page of people horse riding in the different t
 * [Testing](#testing)
 * [Deployment](#deployment)
 * [Credits](#credits)
+
+## User Stories
+
+* As a user I want to know about the different types of Horse Riding.
+* As a user I want what Show Jumping is.
+* As a user I want what Cross Country horse riding is.
+* As a user I want what Hacking is.
+* As a user I want what Dressage is.
+* As a user I want to be able to feedback what type of Horse Riding I like.
 
 ## Wireframes
 
