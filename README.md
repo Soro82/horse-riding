@@ -219,6 +219,24 @@ The site was deployed to GitHub pages. The steps to deploy are:
 
 Click [here](https://soro82.github.io/horse-riding/) for the live link.
 
+### Forking
+
+Forking is a way to make a copy of the original repository on your GitHub account to view and change without affecting the original repository.
+
+* Log in to GitHub and locate your GitHub Repository.
+* At the top of the Repository(under the main navigation) locate the "Fork" button.
+* Now you should have a copy of the original repository in your GitHub account.
+
+### Cloning
+
+* Log in to GitHub and locate the GitHub Repository.
+* Under the repository name click "Clone or download".
+* Click on the code button, select clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+* Open Git Bash.
+* Change the current working directory to the location where you want the cloned directory to be made.
+* Type git clone and then paste The URL copied in the step 3.
+* Press Enter and your local clone will be created.
+
 [Back to Top](#horse-riding)
 
 ## Credits
