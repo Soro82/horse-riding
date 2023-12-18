@@ -49,12 +49,11 @@ nav {
     width: 100%;
     padding: 0 0.5rem;
     justify-content: space-between;
-
 }
+
 nav ul {
     list-style-type: none;
-    margin-bottom: 1em;
-    
+    margin-bottom: 1em;    
 }
 
 #nav-toggle:checked~nav {
@@ -72,8 +71,7 @@ nav ul {
 
 /* Hero Image */
 #hero img {
-    width: 100%;   
-    
+    width: 100%;       
 }
 
 /* Main Section */
@@ -347,8 +345,7 @@ iframe {
 
     #types-info h3 {
         font-size: 30px;
-    }
- 
+    } 
 
     /* Gallery */
     #gallery {

@@ -274,6 +274,7 @@ Forking is a way to make a copy of the original repository on your GitHub accoun
 ### Acknowledgments
 
 * I used www.w3schools.com to learn how to use Flexbox in CSS.
+* The code for the footer was copied from the Love Running Project in Code Institute.
 * I used Devtools and www.responsivedesignchecker.com to test the responsiveness of the website.
 * I got help with my first readme file from www.github.com/kera-cudmore/readme-examples and the Love Running readme file on the Code Institute LMS.
 * I watched this YouTube video by Kasia Bogucka from Code Institute to help me get started on my project [Portfolio Project 1: The guide to MVP](https://www.youtube.com/watch?v=Lz_44zbB7U0&list=PL_7334VduOHsrWzhu5Ta2lrkp016kcBWY&index=24&ab_channel=CodeInstitute)
