@@ -187,6 +187,11 @@ I tested the website on different screen sizes using Devtools and www.responsive
 * When testing the website using Wave, there were two errors on the Home page. I added an aria label to the input and the label for the toggle menu and it fixed the problem.
 * When testing using Responsive Website Design Tester, the text area in the feedback form would push outside the form border on screens larger than 1200px. I removed the code to adjust the margins for the feedback form in the media query for min 1200px and it fixed the problem.
 * I reduced the font size of the Hacking paragraph by one pixel to align the Hacking and Dressage images vertically on larger screen sizes.
+* I reduced the size of the hero image on larger screens to take up less real estate.
+* I increased the size of the images in the "Types of Horse Riding" section on larger screens to prevent the images getting distorted.
+* I increased the size of the images in the Gallery to 100% on larger screens to improve their quality.
+* I reduced the size of the map so that it is not the full width of the page.
+* I changed the background color of the "Thank you" message to a lighter color as it was too strong for the background color of the page.
 
 ##### Unfixed Bugs
 
